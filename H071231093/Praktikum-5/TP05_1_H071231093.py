@@ -1,5 +1,5 @@
-def mix_string(s1, s2):
-    s2 = s2[::-1]  
+def mix_strings(s1, s2):
+    s2 = s2[::-1]
     mixed = min(len(s1), len(s2))
     hasil = ''
 
@@ -16,5 +16,5 @@ def mix_string(s1, s2):
 s1 = input('s1 = ')
 s2 = input('s2 = ')
 
-hasil = mix_string(s1, s2)
+hasil = mix_strings(s1, s2)
 print(f'Hasil Mixed = "{hasil}"')

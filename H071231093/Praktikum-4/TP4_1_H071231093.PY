@@ -10,6 +10,6 @@ def permutasi_kata(kata):
     except TypeError as pesan:
         return 'Terjadi Kesalahan: ' + str(pesan)
 
-kata_input = input('Masukkan sebuah kata: ')
+kata_input = input('Masukkankata: ')
 print(f'String Permutation({kata_input})')
 print(permutasi_kata(kata_input))

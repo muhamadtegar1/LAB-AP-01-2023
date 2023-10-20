@@ -6,7 +6,7 @@ def ini_string_baru(kata):
         if len(kata) % 2 == 0:  
             tengah = kata[len(kata) // 2 - 1 : len(kata) // 2 + 1]  
         else:  
-            tengah = kata[len(kata) // 2] 
+            tengah = kata[len(kata) // 2]  
         akhir = kata[-1]
         hasil = pertama + tengah + akhir
         return hasil
